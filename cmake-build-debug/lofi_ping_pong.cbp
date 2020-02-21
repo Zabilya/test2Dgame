@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lofi_ping_pong"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\msys64\;CMake Files\..\..\..\..\msys64\mingw64\;CMake Files\..\..\..\..\msys64\mingw64\lib\;CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\;CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glfw3\;CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glew\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lofi_ping_pong">
+				<Option output="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/lofi_ping_pong.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 lofi_ping_pong"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lofi_ping_pong/fast">
+				<Option output="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/lofi_ping_pong.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 lofi_ping_pong/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/dependencies/stb_image/stb_image.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/dependencies/stb_image/stb_image.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/game/Game.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/game/Game.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/game/SpriteRenderer.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/game/SpriteRenderer.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/key_handler/keyHandler.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/key_handler/keyHandler.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/main.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/shader/Shader.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/shader/Shader.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/textures/Texture2D.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/textures/Texture2D.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/textures/textures_util.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/textures/textures_util.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/utils/utils.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/utils/utils.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/window_manager/windowManager.cpp">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/src/window_manager/windowManager.h">
+			<Option target="lofi_ping_pong"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glew/CopyImportedTargetProperties.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glew/glew-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glew/glew-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ilya/CLionProjects/lofi/../../../../msys64/mingw64/lib/cmake/glew/glew-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\msys64\mingw64\lib\cmake\glew\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

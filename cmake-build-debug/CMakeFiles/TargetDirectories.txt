@@ -1,0 +1,3 @@
+C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/CMakeFiles/lofi_ping_pong.dir
+C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ilya/CLionProjects/lofi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
